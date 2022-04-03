@@ -16,11 +16,11 @@ int main()
 int main()
 {
 	int a;
-	printf("ÊäÈëÒ»¸öÕûÊı");
+	printf("è¾“å…¥ä¸€ä¸ªæ•´æ•°");
 	scanf_s("%d",&a);
 	if (a%2)
-		printf("aÊÇÆæÊı");
+		printf("aæ˜¯å¥‡æ•°");
 	else
-		printf("aÊÇÅ¼Êı");
+		printf("aæ˜¯å¶æ•°");
 	return 0;
 }

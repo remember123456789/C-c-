@@ -23,3 +23,23 @@ int main()
 	return 0;
 	
 }
+#include<stdio.h>
+int main()
+{
+	int i=2;
+	printf("%d", ++i);
+	return 0;
+}
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("请输入一个整数");
+	scanf_s("%d", &a);
+	switch (a % 3) {
+	case 0: printf("能被3整除");   break;
+	case 1: printf("余数是1");   break;
+	case 2: printf("余数是2");   break;
+	}
+	return 0;
+}
